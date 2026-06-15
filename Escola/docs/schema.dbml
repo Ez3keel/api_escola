@@ -1,0 +1,35 @@
+
+Table Usuario {
+  Id integer [primary key]
+  Nome varchar(250)
+  PasswordHash bit
+  PasswordSalt bit
+  Perfil varchar(50)
+}
+
+Table Matricula {
+  Id integer
+  Turma_Id integer [ref: > Turma.Id]
+  Usuario_id integer [ref: > Usuario.Id]
+  DataMatricula datetime 
+  DataExpiracao datetime
+}
+
+Table Turma {
+  Id integer [primary key]
+  Curso_Id integer [ref: > Curso.Id]
+  Nome varchar(50)
+}
+
+Table Curso {
+  Id integer [primary key]
+  Nome varchar(50)
+}
+
+Table Nota {
+  Id integer [primary key]
+  Matricula_Id integer [ref: > Matricula.Id]
+  Nota integer
+  Aprovado bool
+}
+

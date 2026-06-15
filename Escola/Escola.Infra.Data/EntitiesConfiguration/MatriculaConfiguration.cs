@@ -11,13 +11,25 @@ namespace Escola.Infra.Data.EntitiesConfiguration
     {
         public void Configure(EntityTypeBuilder<Matricula> builder)
         {
+            //Primary key
             builder.HasKey(m => m.Id);
+
+            //2. Properties
             builder.Property(m => m.UsuarioId)
                 .IsRequired();
             builder.Property(m => m.TurmaId)
                 .IsRequired();
 
-            builder.HasOne(x => x.UsuarioId)
+            //3. Relationships
+            builder.HasOne(x => x.Usuario)
+                .WithMany(x => x.Matriculas)
+                .HasForeignKey(x => x.UsuarioId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            builder.HasOne(x => x.Turma)
+                .WithMany(x => x.Matriculas)
+                .HasForeignKey(x => x.TurmaId)
+                .OnDelete(DeleteBehavior.NoAction);
         }
     }
 }

@@ -11,7 +11,7 @@ namespace Escola.Domain.Entities
         public string Descricao { get; set; }
         public int CursoId { get; set; }
         public ICollection<Matricula> Matriculas { get; set; }
-        public Curso curso { get; set; }
+        public Curso Curso { get; set; }
 
     }
 }

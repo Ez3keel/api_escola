@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gonze\\Desktop\\Exercicios em  C Sharp\\Escola\\Escola.Infra.Data\\Escola.Infra.Data.csproj": {}
+    "C:\\Users\\gonze\\Desktop\\GIT\\api_escola\\Escola\\Escola.Infra.Data\\Escola.Infra.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gonze\\Desktop\\Exercicios em  C Sharp\\Escola\\Escola.Domain\\Escola.Domain.csproj": {
+    "C:\\Users\\gonze\\Desktop\\GIT\\api_escola\\Escola\\Escola.Domain\\Escola.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gonze\\Desktop\\Exercicios em  C Sharp\\Escola\\Escola.Domain\\Escola.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\gonze\\Desktop\\GIT\\api_escola\\Escola\\Escola.Domain\\Escola.Domain.csproj",
         "projectName": "Escola.Domain",
-        "projectPath": "C:\\Users\\gonze\\Desktop\\Exercicios em  C Sharp\\Escola\\Escola.Domain\\Escola.Domain.csproj",
+        "projectPath": "C:\\Users\\gonze\\Desktop\\GIT\\api_escola\\Escola\\Escola.Domain\\Escola.Domain.csproj",
         "packagesPath": "C:\\Users\\gonze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gonze\\Desktop\\Exercicios em  C Sharp\\Escola\\Escola.Domain\\obj\\",
+        "outputPath": "C:\\Users\\gonze\\Desktop\\GIT\\api_escola\\Escola\\Escola.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -345,14 +345,14 @@
         }
       }
     },
-    "C:\\Users\\gonze\\Desktop\\Exercicios em  C Sharp\\Escola\\Escola.Infra.Data\\Escola.Infra.Data.csproj": {
+    "C:\\Users\\gonze\\Desktop\\GIT\\api_escola\\Escola\\Escola.Infra.Data\\Escola.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gonze\\Desktop\\Exercicios em  C Sharp\\Escola\\Escola.Infra.Data\\Escola.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\gonze\\Desktop\\GIT\\api_escola\\Escola\\Escola.Infra.Data\\Escola.Infra.Data.csproj",
         "projectName": "Escola.Infra.Data",
-        "projectPath": "C:\\Users\\gonze\\Desktop\\Exercicios em  C Sharp\\Escola\\Escola.Infra.Data\\Escola.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\gonze\\Desktop\\GIT\\api_escola\\Escola\\Escola.Infra.Data\\Escola.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\gonze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gonze\\Desktop\\Exercicios em  C Sharp\\Escola\\Escola.Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\gonze\\Desktop\\GIT\\api_escola\\Escola\\Escola.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -374,8 +374,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\gonze\\Desktop\\Exercicios em  C Sharp\\Escola\\Escola.Domain\\Escola.Domain.csproj": {
-                "projectPath": "C:\\Users\\gonze\\Desktop\\Exercicios em  C Sharp\\Escola\\Escola.Domain\\Escola.Domain.csproj"
+              "C:\\Users\\gonze\\Desktop\\GIT\\api_escola\\Escola\\Escola.Domain\\Escola.Domain.csproj": {
+                "projectPath": "C:\\Users\\gonze\\Desktop\\GIT\\api_escola\\Escola\\Escola.Domain\\Escola.Domain.csproj"
               }
             }
           }
@@ -390,7 +390,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
@@ -398,6 +398,10 @@
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[10.0.9, )"
             }
@@ -418,7 +422,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
